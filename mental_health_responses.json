@@ -1,0 +1,6 @@
+{
+    "greeting": ["Hello! How can I support you today?", "Hey there! How are you feeling?"],
+    "depression": ["I'm here for you. Want to talk about it?", "You're not alone. How can I help?"],
+    "anxiety": ["Take a deep breath. What's on your mind?", "I understand. Let's take this one step at a time."],
+    "default": ["I'm here to listen. Tell me more."]
+}
