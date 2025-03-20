@@ -9,7 +9,7 @@ app6.py contains DialoGPT implementation
 Notes: Model trained on Reddit comments. Erratic behavior, sly personality that breaks a person more than it helps.
 
 
-app7.py to app11.py contain 
+app7.py to app11.py contain hardcoded responses
 
 Notes: Hardcoded and doesn't use Machine learning concepts. Code works but "experimental_rerun" and lookup issues sometimes, that fix after manually rerunning the app from the website (3 dot menu on top right)
 
@@ -17,3 +17,7 @@ Notes: Hardcoded and doesn't use Machine learning concepts. Code works but "expe
 app12.py
 
 Notes: Most complete version based on iteration 7-11, but "experimental_rerun" persists despite updated streamlit library. Fixes itself on manual rerun (type R) or using any other interactive elements present in the app. 
+
+app13.py to app16.py contain ML based implementation
+
+Notes: Uses combined_dataset and mental_health_responses to answer questions contextually. But problems include no response, triple response and rerun loop.
