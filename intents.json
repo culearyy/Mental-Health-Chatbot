@@ -1,0 +1,93 @@
+{
+    "intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Howdy", "Bonjour", "Hola"],
+       "responses": [
+         "Hello there. Tell me how you are feeling today?",
+         "Hi! What’s on your mind?",
+         "Hey! I'm here to listen. What's going on?"
+       ]
+      },
+  
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+       "responses": [
+         "Take care. Remember, I'm here whenever you need to talk.",
+         "Goodbye! Stay strong and take care of yourself.",
+         "See you later! Hope you feel better soon."
+       ]
+      },
+  
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "Appreciate it", "Much obliged"],
+       "responses": [
+         "You're welcome! I'm always here to help.",
+         "Anytime! You are never alone in this. 💙"
+       ]
+      },
+  
+      {"tag": "sadness",
+       "patterns": ["I feel sad", "I'm feeling down", "I'm unhappy", "I'm depressed"],
+       "responses": [
+         "I'm really sorry you're feeling this way. You're not alone. Want to talk about what's on your mind?",
+         "Feeling sad can be really tough. Is there anything I can do to help?",
+         "Would you like to share what’s been making you feel this way?"
+       ]
+      },
+  
+      {"tag": "stress",
+       "patterns": ["I'm stressed", "I'm overwhelmed", "I'm so anxious", "I'm worried"],
+       "responses": [
+         "That sounds really difficult. Take a deep breath. Want to talk about what’s stressing you out?",
+         "Stress can be exhausting. Have you tried relaxation techniques like deep breathing?",
+         "I'm here for you. Talking about it might help."
+       ]
+      },
+  
+      {"tag": "self-esteem",
+       "patterns": ["I feel like a loser", "I hate myself", "No one cares about me", "I feel worthless"],
+       "responses": [
+         "I'm really sorry you're feeling this way. You matter more than you know. 💙",
+         "You are valuable, even if it doesn’t feel like it right now. What’s making you feel this way?",
+         "Negative thoughts about yourself can be overwhelming, but they don't define you. You are worthy of love and support."
+       ]
+      },
+  
+      {"tag": "loneliness",
+       "patterns": ["I have no friends", "I feel so alone", "Nobody likes me", "I'm lonely"],
+       "responses": [
+         "Loneliness can feel overwhelming. But you're not truly alone. I'm here for you. Want to talk about it?",
+         "Feeling lonely is tough. Maybe finding a support group or talking to someone close to you could help?",
+         "You are not alone in this. Many people care about you, even if it doesn't feel that way right now. 💙"
+       ]
+      },
+  
+      {"tag": "suicide",
+       "patterns": ["I want to die", "I want to kill myself", "I'm thinking about suicide", "I don't want to live anymore"],
+       "responses": [
+         "I'm really sorry you're feeling this way. You're not alone. 💙 Please talk to someone you trust or reach out to a crisis helpline like **988 (U.S.)**.",
+         "You are important, and your feelings matter. Please reach out to a loved one or call a helpline.",
+         "I'm here for you, and I care about you. Please don’t go through this alone. Help is available."
+       ]
+      },
+  
+      {"tag": "abuse",
+       "patterns": ["I was abused", "I was raped", "I am a victim of abuse", "I experienced trauma"],
+       "responses": [
+         "I'm so sorry you went through that. You don’t have to face this alone. Please consider reaching out to someone you trust or a support organization.",
+         "What happened to you is not your fault. You deserve support and care. If you're comfortable, talking to a professional might help.",
+         "You are strong, and you deserve to be heard. There are people who care and want to support you. 💙"
+       ]
+      },
+  
+      {"tag": "default",
+       "patterns": ["exams", "friends", "relationship", "family", "money problems"],
+       "responses": [
+         "That sounds important. Want to share more about it?",
+         "I see. Let's talk about it. What’s been on your mind?",
+         "I’m here to listen. Tell me more."
+       ]
+      }
+    ]
+  }
+  
